@@ -1,2 +1,2 @@
-# c-programming
+# C-Programming Examples
 C Programming Examples
