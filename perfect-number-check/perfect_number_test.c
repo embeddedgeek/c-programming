@@ -1,7 +1,7 @@
 /*
  * =============================================================================================================================================
  * Name:perfect_number_test.c
- * Description: Function call for test function perfect_num_check() and Verifying and validating result
+ * Description: A simple test function for verifying and validating result for function perfect_num_check()
  * License: MIT
  * Copyright: EmbeddedGeeks
  * Reference: http://embeddedgeeks.com/c-programming-examples/perfect-number-check
