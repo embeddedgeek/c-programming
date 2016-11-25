@@ -3,7 +3,7 @@
  * Name: perfect_number.h
  * License: MIT
  * Copyright: EmbeddedGeeks
- * Reference: http://embeddedgeeks.com/c-programming-examples/perfect-number-check
+ * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-check-given-number-perfect-number-or-not
  * =============================================================================================================================================
  */
 #ifndef PERFECTNO_H_

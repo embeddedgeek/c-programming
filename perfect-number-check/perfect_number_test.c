@@ -4,7 +4,7 @@
  * Description: A simple test function for verifying and validating result for function perfect_num_check()
  * License: MIT
  * Copyright: EmbeddedGeeks
- * Reference: http://embeddedgeeks.com/c-programming-examples/perfect-number-check
+ * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-check-given-number-perfect-number-or-not
  * =============================================================================================================================================
  */
 
