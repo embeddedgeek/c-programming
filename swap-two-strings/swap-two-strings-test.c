@@ -4,7 +4,7 @@
  * Input(s):
  *  string1,string2: arrays of char type that are passed (by pointer) to function string_swap() arguments for swapping
  * Output(s):
- *  string1,string2: display string1 and string2 after swapping
+ *  Display string1 and string2 after swapping
  *  Check if test is passed/failed
  * License: MIT
  * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-swapping-two-strings
