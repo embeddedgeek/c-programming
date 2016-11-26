@@ -2,7 +2,8 @@
  * Name: swap-two-strings.c
  * Description: A simple function string_swap() to swap two strings using a temporary variable and strcpy()
  * Input(s):
- *    string1,string2: pointers to strings (i.e., they point to null-terminated array of characters)
+ *    *string1: pointer to string1
+ *    *string2: pointer to string2
  * Output(s):
  *    Return none
  * License: MIT
