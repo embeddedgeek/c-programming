@@ -8,6 +8,7 @@
  *   returns true(1)/false(0) after checking whether a number is a perfect number or not
  * License: MIT
  * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-check-given-number-perfect-number-or-not
+ *
  * =============================================================================================================================================
  */
 
