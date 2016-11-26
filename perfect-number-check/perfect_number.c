@@ -2,8 +2,11 @@
  * =============================================================================================================================================
  * Name:perfect_number.c
  * Description: A simple function in c to check whether a number is a perfect number or not
+ * Input(s):
+ *   num: an integer number to be checked whether it is perfect number or not
+ * Output(s):
+ *   returns true(1)/false(0) after checking whether a number is a perfect number or not
  * License: MIT
- * Copyright: EmbeddedGeeks
  * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-check-given-number-perfect-number-or-not
  * =============================================================================================================================================
  */

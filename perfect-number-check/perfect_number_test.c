@@ -2,8 +2,11 @@
  * =============================================================================================================================================
  * Name:perfect_number_test.c
  * Description: A simple test function for verifying and validating result for function perfect_num_check()
+ * Input(s):
+ *     num1,num2,num3: integer numbers that are passed to perfect_num_check()
+ * Output(s):
+ *     Check if test is passed or failed
  * License: MIT
- * Copyright: EmbeddedGeeks
  * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-check-given-number-perfect-number-or-not
  * =============================================================================================================================================
  */
