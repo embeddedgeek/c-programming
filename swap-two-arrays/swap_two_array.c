@@ -2,7 +2,6 @@
  * Name: swap_two_array.c
  * Description: A simple function swap_two_array() to swap two arrays using pointer
  * License: MIT
- * Copyright: EmbeddedGeeks
  * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-swapping-two-arrays
  * =============================================================================================================
  */

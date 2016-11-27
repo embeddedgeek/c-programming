@@ -2,7 +2,6 @@
  * Name: swap_two_array_test.c
  * Description: A simple test function for verifying and validating result of swap_two_array()
  * License: MIT
- * Copyright: EmbeddedGeeks
  * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-swapping-two-arrays
  * =============================================================================================================
  */

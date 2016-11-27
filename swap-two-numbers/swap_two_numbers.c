@@ -1,8 +1,12 @@
 /* ===========================================================================================================
  * Name: swap_two_numbers.c
  * Description: A simple function swap_two_number() to swap two numbers using pointer
+ * Input(s):
+ *  *num1: pointer to integer
+ *  *num2: pointer to integer
+ * Output(s):
+ *   Returns none
  * License: MIT
- * Copyright: EmbeddedGeeks
  * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-swap-two-numbers
  *
  * ===========================================================================================================
