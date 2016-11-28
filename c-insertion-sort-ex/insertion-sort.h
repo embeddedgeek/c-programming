@@ -1,8 +1,6 @@
 /*
  * insertion-sort.h
- *
- *  Created on: Nov 27, 2016
- *      Author: santanusarma
+
  */
 
 #ifndef INSERTION_SORT_H_

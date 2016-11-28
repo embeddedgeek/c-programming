@@ -1,8 +1,6 @@
 /*
  * array-sorting.c
- *
- *  Created on: Nov 27, 2016
- *      Author: santanusarma
+
  */
 
 #include<stdio.h>

@@ -1,8 +1,6 @@
 /*
  * insertion-sort.c
- *
- *  Created on: Nov 27, 2016
- *      Author: santanusarma
+
  */
 
 #include"insertion-sort.h"
