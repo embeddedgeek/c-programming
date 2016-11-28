@@ -4,7 +4,7 @@
  * Input(s):
  *   arr : integer array of size 'array_size' ('array_size' is defined inside the header file "insertion-sort.h")
  * Output(s):
- *   Display array 'arr[array_size]' after sorting
+ *   arr : integer array after sorting
  * License: MIT
  * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-insertion-sort
  *
