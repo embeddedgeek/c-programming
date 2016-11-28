@@ -1,37 +1,48 @@
-/*
- * array-sorting.c
-
+/* ================================================================================================================
+ * Name: array-sorting.c
+ * Description: A simple function to sort an array using Insertion sort
+ * Input(s):
+ *   arr : integer array of size 'array_size' ('array_size' is defined inside the header file "insertion-sort.h")
+ * Output(s):
+ *   Display array 'arr[array_size]' after sorting
+ * License: MIT
+ * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-insertion-sort
+ *
+ * ================================================================================================================
  */
 
 #include<stdio.h>
 #include"insertion-sort.h"
-
 
 int array_sorting(void){
 
 	  // Enter any array for sorting
 
 	  int i;
-	  int arr2[array_size];
+	  int arr[array_size];
 	  printf("Case-2: Enter any array for sorting\n");
 
 	  printf("Enter elements of array: \n");
 	  	for(i=0;i<array_size;i++)
-	  		scanf("%d",&arr2[i]);
+	  		scanf("%d",&arr[i]);
 
 	 // Display array before sorting
 
 	  printf("Given array: \n");
-	  print_array(arr2,array_size);
+	/* Passing array arr (by reference) and size of array 'array_size' (by value)
+	 function print_array() arguments.*/
+	  print_array(arr,array_size);
 
     // function call for insertion sort
+	/* Passing array arr (by reference) and size of array 'array_size' (by value)
+	function insertion_sort() arguments.*/
 
-	  insertion_sort(arr2,array_size);
+	  insertion_sort(arr,array_size);
 
     // Print array after sorting
 
 	  printf("Array after sorting: \n");
-	  print_array(arr2, array_size);
+	  print_array(arr, array_size);
 	  return 0;
 
 }

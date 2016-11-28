@@ -1,6 +1,15 @@
-/*
+/* ================================================================================================================
  * insertion-sort.c
-
+ * Description: A simple function to implement Insertion sort in C
+ * Input(s):
+ *   *arr : integer pointer to array
+ *   n : integer number (size of array)
+ * Output(s):
+ *   Returns none
+ * License: MIT
+ * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-insertion-sort
+ *
+ * ================================================================================================================
  */
 
 #include"insertion-sort.h"

@@ -1,5 +1,14 @@
-/*
- * main.c
+/* ================================================================================================================
+ * Name: main.c
+ * Description: Driver function for array sorting using Insertion sort
+ * Input(s):
+ *   value : integer number
+ * Output(s):
+ *   Display result for each case
+ * License: MIT
+ * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-insertion-sort
+ *
+ * ================================================================================================================
  */
 
 #include<stdio.h>

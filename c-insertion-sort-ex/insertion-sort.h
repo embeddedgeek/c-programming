@@ -1,6 +1,10 @@
-/*
- * insertion-sort.h
-
+/* ================================================================================================================
+ * Name: insertion-sort.h
+ * Description: Header file for insertion sort example program
+ * License: MIT
+ * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-insertion-sort
+ *
+ * ================================================================================================================
  */
 
 #ifndef INSERTION_SORT_H_
