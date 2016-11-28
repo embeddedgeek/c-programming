@@ -14,7 +14,7 @@
 
 #include<stdio.h>
 #include <string.h>
-#include"swap-two-strings.h"
+#include"swap_two_strings.h"
 
 int main(void) {
 	char string1[max_string_size],string2[max_string_size];

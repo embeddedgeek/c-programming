@@ -13,7 +13,7 @@
  */
 
 
-#include"swap-two-strings.h"
+#include"swap_two_strings.h"
 #include <string.h>
 
 void string_swap(char *string1,char *string2){
