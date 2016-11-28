@@ -1,5 +1,5 @@
 /* ================================================================================================================
- * Name: array-sorting.c
+ * Name: array_sorting.c
  * Description: A simple function to sort an array using Insertion sort
  * Input(s):
  *   arr : integer array of size 'array_size' ('array_size' is defined inside the header file "insertion-sort.h")
@@ -12,7 +12,7 @@
  */
 
 #include<stdio.h>
-#include"insertion-sort.h"
+#include"insertion_sort.h"
 
 int array_sorting(void){
 
@@ -20,7 +20,7 @@ int array_sorting(void){
 
 	  int i;
 	  int arr[array_size];
-	  printf("Case-2: Enter any array for sorting\n");
+	  printf("Enter any array for sorting\n");
 
 	  printf("Enter elements of array: \n");
 	  	for(i=0;i<array_size;i++)

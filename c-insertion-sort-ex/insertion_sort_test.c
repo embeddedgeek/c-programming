@@ -1,5 +1,5 @@
 /* ================================================================================================================
- * Name: insertion-sort-test.c
+ * Name: insertion_sort_test.c
  * Description: A simple test function for verification and validation of Insertion sort
  * Input(s):
  *   arr : integer array
@@ -12,7 +12,7 @@
  */
 
 #include<stdio.h>
-#include"insertion-sort.h"
+#include"insertion_sort.h"
 
 
 void insertion_sort_test(void) {
@@ -28,7 +28,6 @@ void insertion_sort_test(void) {
 	             we can divide the total size of the array
 	             by the size of the array element.*/
 	  int n= sizeof(arr)/sizeof(arr[0]);
-      printf("Case-1: \n");
 	  printf("Given array: \n");
 	  print_array(&arr[0],n);
 

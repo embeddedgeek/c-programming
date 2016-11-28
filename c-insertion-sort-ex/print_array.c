@@ -13,7 +13,7 @@
  */
 
 #include<stdio.h>
-#include"insertion-sort.h"
+#include"insertion_sort.h"
 
 // A simple function to print an array of size n
 void print_array(int *arr, int n)

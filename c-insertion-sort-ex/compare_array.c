@@ -1,5 +1,5 @@
 /* ================================================================================================================
- * Name: compare-array.c
+ * Name: compare_array.c
  * Description: A simple function to compare two arrays of size n
  * Input(s):
  *   *arr1 : integer pointer to array
@@ -15,7 +15,7 @@
 
 
 #include<stdio.h>
-#include"insertion-sort.h"
+#include"insertion_sort.h"
 
 // A simple function to compare two arrays of same size n
 int compare_array(int *arr1, int *arr2, int n)

@@ -1,5 +1,5 @@
 /* ================================================================================================================
- * insertion-sort.c
+ * insertion_sort.c
  * Description: A simple function to implement Insertion sort in C
  * Input(s):
  *   *arr : integer pointer to array
@@ -12,7 +12,7 @@
  * ================================================================================================================
  */
 
-#include"insertion-sort.h"
+#include"insertion_sort.h"
 
 void insertion_sort(int *arr, int n){
 

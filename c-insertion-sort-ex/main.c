@@ -12,12 +12,12 @@
  */
 
 #include<stdio.h>
-#include"insertion-sort.h"
+#include"insertion_sort.h"
 
 int main(void) {
 
 	int value;
-	printf("Enter value: \n");
+	printf("Enter test case number: \n");
 	scanf("%d",&value);
 
     switch (value){
@@ -30,8 +30,13 @@ int main(void) {
         case 2 :
         	array_sorting();
         	break;
+
+        /* Case-3: Large array test*/
+        case 3 :
+        	insertion_sort_test_rand();
+        	break;
         default:
-    	printf("Invalid entry!");
+    	printf("Invalid test case!");
     }
     return 0;
 }
