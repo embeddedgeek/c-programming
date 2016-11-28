@@ -4,6 +4,7 @@
  * Input(s):
  *   arr : integer array
  * Output(s):
+ *   Display array after sorting
  *   Check if test is passed or failed
  * License: MIT
  * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-insertion-sort
