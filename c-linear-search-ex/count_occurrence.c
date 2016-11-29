@@ -18,8 +18,6 @@
 #include"linear_search.h"
 #include<stdio.h>
 
-// Linearly search search_num in arr[].  If search_num is present then return the index,
-// otherwise return -1
 
 int count_occurrence(int *arr, int n, int search_num)
 {
