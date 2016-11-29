@@ -4,7 +4,7 @@
  * Input(s):
  *   *arr : integer pointer to array
  *   n : integer number (array size)
- *   search_num : integer number to be searched in the given array
+ *   search_num : integer number 
  * Output(s):
  *   Display occurrences
  *   Returns count
