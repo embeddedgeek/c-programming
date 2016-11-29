@@ -26,7 +26,7 @@ int main(void) {
         	linear_search_test();
     	    break;
 
-	   /* Case-2: Function call to sort an array using Insertion sort*/
+	   /* Case-2: Function call for linear search for largr arrayt*/
         case 2 :
         	linear_search_large_array_test();
         	break;
