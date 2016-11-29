@@ -9,7 +9,7 @@
  *   Display result (if search_num is present or not and its index)
  *   Check if test is passed or failed
  * License: MIT
- * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-linear-search
+ * Reference: http://embeddedgeeks.com/c-programming/linear-search-c-programming
  *
  * ================================================================================================================
  */
@@ -22,7 +22,7 @@
 
 void linear_search_test(void) {
 
-	int arr[6] = {5,3,6,9,4,2}, search_num, search_num_index ;
+	int arr[] = {5,3,6,9,4,2}, search_num, search_num_index ;
 	printf("Test function for linear search\n");
 
 	// Input: arr = (5, 3, 6, 9, 4, 2)

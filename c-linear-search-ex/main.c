@@ -6,7 +6,7 @@
  * Output(s):
  *   Display result for each case
  * License: MIT
- * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-linear-search
+ * Reference: http://embeddedgeeks.com/c-programming/linear-search-c-programming
  *
  * ================================================================================================================
  */

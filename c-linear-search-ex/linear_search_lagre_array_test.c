@@ -9,7 +9,7 @@
  *   Display if search_num is present or not
  *   Display number of occurrence of search_num and its corresponding indexes
  * License: MIT
- * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-linear-search
+ * Reference: http://embeddedgeeks.com/c-programming/linear-search-c-programming
  *
  * ================================================================================================================
  */
