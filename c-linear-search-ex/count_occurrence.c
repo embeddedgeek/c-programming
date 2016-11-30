@@ -4,7 +4,7 @@
  * Input(s):
  *   *arr : integer pointer to array
  *   n : integer number (array size)
- *   search_num : integer number to be searched in the given array
+ *   search_num : integer number
  * Output(s):
  *   Display occurrences
  *   Returns count
@@ -18,8 +18,6 @@
 #include"linear_search.h"
 #include<stdio.h>
 
-// Linearly search search_num in arr[].  If search_num is present then return the index,
-// otherwise return -1
 
 int count_occurrence(int *arr, int n, int search_num)
 {

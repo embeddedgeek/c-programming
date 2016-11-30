@@ -1,0 +1,50 @@
+<html><head><title>compare_array.c</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="sourcestyles.css" />
+</head><body link="blue" vlink="blue">
+<h3>File: /Users/santanusarma/Dropbox/Websites/EmbeddedGeeks/Programming/c-programming/c-insertion-sort-ex/compare_array.c</h3>
+<SCRIPT>
+defaultStatus = "File: /Users/santanusarma/Dropbox/Websites/EmbeddedGeeks/Programming/c-programming/c-insertion-sort-ex/compare_array.c";
+top.document.title  = "compare_array.c";
+</SCRIPT>
+<pre><span class="default"></span><a name="1"><font size=-1>1     </font></a><span class="default"></span><span class="comment">/* ================================================================================================================</span>
+<a name="2"><font size=-1>2     </font></a><span class="comment"> * Name: compare_array.c</span>
+<a name="3"><font size=-1>3     </font></a><span class="comment"> * Description: A simple function to compare two arrays of size n</span>
+<a name="4"><font size=-1>4     </font></a><span class="comment"> * Input(s):</span>
+<a name="5"><font size=-1>5     </font></a><span class="comment"> *   *arr1 : integer pointer to array</span>
+<a name="6"><font size=-1>6     </font></a><span class="comment"> *   *arr2 : integer pointer to array</span>
+<a name="7"><font size=-1>7     </font></a><span class="comment"> *   n : integer number (size of array)</span>
+<a name="8"><font size=-1>8     </font></a><span class="comment"> * Output(s):</span>
+<a name="9"><font size=-1>9     </font></a><span class="comment"> *   Returns true(flag=1)/false(flag=0)</span>
+<a name="10"><font size=-1>10     </font></a><span class="comment"> * License: MIT</span>
+<a name="11"><font size=-1>11     </font></a><span class="comment"> * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-insertion-sort</span>
+<a name="12"><font size=-1>12     </font></a><span class="comment"> *</span>
+<a name="13"><font size=-1>13     </font></a><span class="comment"> * ================================================================================================================</span>
+<a name="14"><font size=-1>14     </font></a><span class="comment"> */</span>
+<a name="15"><font size=-1>15     </font></a><span class="comment"></span>
+<a name="16"><font size=-1>16     </font></a><span class="comment"></span>
+<a name="17"><font size=-1>17     </font></a><span class="comment"></span><span class="preproc">#include</span><span class="string">&lt;stdio.h&gt;</span>
+<a name="18"><font size=-1>18     </font></a><span class="string"></span><span class="preproc">#include</span><span class="string">&quot;insertion_sort.h&quot;</span>
+<a name="19"><font size=-1>19     </font></a><span class="string"></span>
+<a name="20"><font size=-1>20     </font></a><span class="string"></span><span class="comment">// A simple function to compare two arrays of same size n</span>
+<a name="21"><font size=-1>21     </font></a><span class="comment"></span><span class="keyword">int <a href="dictionary.html#12">compare_array</a></span><span class="default">(</span><span class="keyword">int </span><span class="default">*<a href="dictionary.html#34">arr1</a>, </span><span class="keyword">int </span><span class="default">*<a href="dictionary.html#35">arr2</a>, </span><span class="keyword">int <a href="dictionary.html#36">n</a></span><span class="default">)</span>
+<a name="22"><font size=-1>22     </font></a><span class="default">{</span>
+<a name="23"><font size=-1>23     </font></a><span class="default">   </span><span class="keyword">int <a href="dictionary.html#37">i</a></span><span class="default">,<a href="dictionary.html#38">flag</a> = </span><span class="number">0</span><span class="default">;</span>
+<a name="24"><font size=-1>24     </font></a><span class="default">   </span><span class="keyword">for </span><span class="default">(<a href="dictionary.html#37">i</a>=</span><span class="number">0</span><span class="default">;<a href="dictionary.html#37">i</a>&lt;<a href="dictionary.html#36">n</a>;<a href="dictionary.html#37">i</a>++){</span>
+<a name="25"><font size=-1>25     </font></a><span class="default"></span>
+<a name="26"><font size=-1>26     </font></a><span class="default">  	 	</span><span class="keyword">if</span><span class="default">(<a href="dictionary.html#34">arr1</a>[<a href="dictionary.html#37">i</a>] == <a href="dictionary.html#35">arr2</a>[<a href="dictionary.html#37">i</a>])</span>
+<a name="27"><font size=-1>27     </font></a><span class="default">  	 	<a href="dictionary.html#38">flag</a>=</span><span class="number">1</span><span class="default">;</span>
+<a name="28"><font size=-1>28     </font></a><span class="default">  	 }</span>
+<a name="29"><font size=-1>29     </font></a><span class="default">   </span><span class="keyword">return <a href="dictionary.html#38">flag</a></span><span class="default">;</span>
+<a name="30"><font size=-1>30     </font></a><span class="default">}</span>
+<a name="31"><font size=-1>31     </font></a><span class="default"></span>
+<a name="32"><font size=-1>32     </font></a><span class="default"></span>
+<a name="33"><font size=-1>33     </font></a><span class="default"></span>
+<a name="34"><font size=-1>34     </font></a><span class="default"></span>
+<a name="35"><font size=-1>35     </font></a><span class="default"></span>
+<a name="36"><font size=-1>36     </font></a><span class="default"></span>
+<a name="37"><font size=-1>37     </font></a><span class="default"></span>
+<a name="38"><font size=-1>38     </font></a><span class="default"></span>
+<a name="39"><font size=-1>39     </font></a><span class="default"></span>
+<a name="40"><font size=-1>40     </font></a><span class="default"></span>
+</pre></body></html>
