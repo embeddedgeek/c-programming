@@ -1,5 +1,5 @@
  /* ================================================================================================================
- * Name: binary_search.c
+ * Name: binary_search_iterative.c
  * Description: A simple function to implement Binary search in C
  * Input(s):
  *   *arr : integer pointer to  array
@@ -22,7 +22,7 @@
    given array arr[] if present, otherwise returns -1,
    start_index =0, end_index = (array.length - 1)*/
 
-int binary_search(int *arr, int search_num, int start_index, int end_index)
+int binary_search_iterative(int *arr, int search_num, int start_index, int end_index)
 {
   while (start_index <= end_index)
   {

@@ -10,11 +10,10 @@
 #ifndef BINARY_SEARCH_H_
 #define BINARY_SEARCH_H_
 
-#define array_size 10
-
-int binary_search(int *arr, int search_num, int start_index, int end_index);
-void binary_search_test(void);
+int binary_search_iterative(int *arr, int search_num, int start_index, int end_index);
+int binary_search_recursive(int *arr, int search_num, int start_index, int end_index);
+void binary_search_iterative_test(void);
+void binary_search_recursive_test(void);
 void print_array(int *arr, int n);
-
 
 #endif /* BINARY_SEARCH_H_ */
