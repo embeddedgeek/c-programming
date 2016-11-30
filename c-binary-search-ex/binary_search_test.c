@@ -5,7 +5,7 @@
  *   arr : integer array
  *   search_num : integer number to be searched in the given array
  * Output(s):
- *   Display result (if search_num is present or not)
+ *   Display result (if search_num is present or not and its index if found)
  *   Check if test is passed or failed
  * License: MIT
  * Reference: http://embeddedgeeks.com/programming/binary-search-c-programming
@@ -24,8 +24,6 @@ int main(void) {
 	int arr[] = {11, 25, 19, 23, 45, 50}, search_num,return_val ;
 	printf("Test function for Binary search\n");
 
-	// Input: arr = (11, 25, 19, 23, 45, 50)
-	// Output: search_num = 19, searched_num_index = 2
 	  int n= sizeof(arr)/sizeof(arr[0]);
 	                 /* To determine the number of elements in the array,
 	 	             we can divide the total size of the array
