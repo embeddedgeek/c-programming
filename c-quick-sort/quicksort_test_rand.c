@@ -1,22 +1,16 @@
-/* ================================================================================================================
- * Name: mergesort_test_rand.c
- * Description: A simple function to sort an array of large size using Merge sort
- * Input(s):
- *   arr[] : integer array (random elements)
- * Output(s):
- *   Display sorted array
- * License: MIT
- * Reference: http://embeddedgeeks.com/c-programming/merge-sort-program-c
+/*
+ * quicksort_test_rand.c
  *
- * ================================================================================================================
+ *  Created on: Jan 17, 2017
+ *      Author: santanusarma
  */
 
 #include<stdio.h>
-#include"merge_sort.h"
+#include"quick_sort.h"
 #include<stdlib.h>
 
 
-int mergesort_test_rand(void){
+int quicksort_test_rand(void){
 
 	 // Enter any array for sorting
 	  int i, test_input_arr[rand_arr_size];
@@ -35,11 +29,13 @@ int mergesort_test_rand(void){
 	  	  	        temp[i] = test_input_arr[i];
 
     // function call for merge sort
-	  merge_sort(test_input_arr, temp,rand_arr_size);
+	  	quick_sort(test_input_arr, 0, rand_arr_size-1);
 
     // Print array after sorting
 	  printf("Sorted array: \n");
 	  print_array(test_input_arr,rand_arr_size);
 	  return 0;
 }
+
+
 

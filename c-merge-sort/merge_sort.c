@@ -8,7 +8,7 @@
  * Output(s):
  *   Returns none
  * License: MIT
- * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-merge-sort
+ * Reference: http://embeddedgeeks.com/c-programming/merge-sort-program-c
  *
  * ================================================================================================================
  */

@@ -2,7 +2,7 @@
  * Name: merge_sort.h
  * Description: Header file for Merge Sort implementation in C
  * License: MIT
- * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-merge-sort
+ * Reference: http://embeddedgeeks.com/c-programming/merge-sort-program-c
  *
  * ================================================================================================================
  */

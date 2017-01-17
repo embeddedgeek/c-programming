@@ -8,7 +8,7 @@
  *   mid : an integer (middle location of array)
  *   right : an integer (end location of array)
  * License: MIT
- * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-merge-sort
+ * Reference: http://embeddedgeeks.com/c-programming/merge-sort-program-c
  *
  * ================================================================================================================
  */
