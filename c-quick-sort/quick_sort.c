@@ -1,6 +1,4 @@
-/*
- *
- /* ================================================================================================================
+/* ================================================================================================================
  * Name: quick_sort.c
  * Description: A simple function to implement Quick sort in C
  * Input(s):
@@ -10,7 +8,7 @@
  * Output(s):
  *   Returns none
  * License: MIT
- * Reference: http://embeddedgeeks.com/c-programming/c-programming-example-merge-sort
+ * Reference: http://embeddedgeeks.com/c-programming/quick-sort-program-c
  *
  * ================================================================================================================
  */

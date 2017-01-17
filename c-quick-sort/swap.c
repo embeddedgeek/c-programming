@@ -1,10 +1,10 @@
-/*
- * swap.c
+/* ===========================================================================================================
+ * Name: swap.c
+ * Description: A simple function to swap two elements of an array
+ * License: MIT
  *
- *  Created on: Jan 17, 2017
- *      Author: santanusarma
- */
-
+ * ===========================================================================================================
+*/
 #include"quick_sort.h"
 
 // A simple function to swap two number using pointer

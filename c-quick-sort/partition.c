@@ -1,8 +1,16 @@
-/*
- * partition.c
+/* ================================================================================================================
+ * Name: partition.c
+ * Description: A simple function to partition the array around an element
+ * Input(s):
+ *   arr[] : integer array
+ *   left : integer number
+ *   right : integer number
+ * Output(s):
+ *   Returns left (an integer number)
+ * License: MIT
+ * Reference: http://embeddedgeeks.com/c-programming/quick-sort-program-c
  *
- *  Created on: Jan 17, 2017
- *      Author: santanusarma
+ * ================================================================================================================
  */
 
 #include"quick_sort.h"

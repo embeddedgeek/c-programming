@@ -1,8 +1,15 @@
-/*
- * quick_sort_test.c
+/* ================================================================================================================
+ * Name: quick_sort_test.c
+ * Description: A simple test function for Quick sort
+ * Input(s):
+ *   arr[] : integer array
+ * Output(s):
+ *   Display sorted array
+ *   Check if test is passed or failed
+ * License: MIT
+ * Reference: http://embeddedgeeks.com/c-programming/quick-sort-program-c
  *
- *  Created on: Jan 17, 2017
- *      Author: santanusarma
+ * ================================================================================================================
  */
 
 #include<stdio.h>

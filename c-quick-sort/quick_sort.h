@@ -1,9 +1,12 @@
-/*
- * quick_sort.h
+/* ================================================================================================================
+ * Name: quick_sort.h
+ * Description: Header file for Quick Sort implementation in C
+ * License: MIT
+ * Reference: http://embeddedgeeks.com/c-programming/quick-sort-program-c
  *
- *  Created on: Jan 17, 2017
- *      Author: santanusarma
+ * ================================================================================================================
  */
+
 
 #ifndef QUICK_SORT_H_
 #define QUICK_SORT_H_

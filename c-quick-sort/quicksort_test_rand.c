@@ -1,8 +1,14 @@
-/*
- * quicksort_test_rand.c
+/* ================================================================================================================
+ * Name: quicksort_test_rand.c
+ * Description: A simple function to sort an array of large size using Quick sort
+ * Input(s):
+ *   arr[] : integer array (random elements)
+ * Output(s):
+ *   Display sorted array
+ * License: MIT
+ * Reference: http://embeddedgeeks.com/c-programming/quick-sort-program-c
  *
- *  Created on: Jan 17, 2017
- *      Author: santanusarma
+ * ================================================================================================================
  */
 
 #include<stdio.h>
