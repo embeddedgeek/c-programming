@@ -17,18 +17,18 @@
 
 int partition(int arr[], int left, int right)
 {
-    int key = arr[(left+right)/2];
+    int pivot = arr[(left+right)/2];
 
     while(left <= right)
     {
     	// Find elements on the left that should be on right
-    	while(arr[left] < key)
+    	while(arr[left] < pivot)
     	{
     		left++;
     	}
 
     	// Find elements on the right that should be on left
-    	while(arr[right] > key)
+    	while(arr[right] > pivot)
     	{
     	    right--;
     	}
