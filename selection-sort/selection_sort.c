@@ -1,5 +1,5 @@
 /* ================================================================================================================
- * Name: selection_sort
+ * Name: selection_sort.c
  * Description: A simple function to implement Selection sort in C
  * Input(s):
  *   arr[] : integer array
