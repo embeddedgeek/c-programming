@@ -26,10 +26,9 @@ void selection_sort(int arr[], int n){
     	// Find minimum element in the given array
     	for(j= i+1; j < n; j++)
     	{
-    		if(arr[index_min] > arr[j])
-    		 {
+    		if(arr[index_min] > arr[j]){
     		      index_min = j;
-    	     }
+    	      }
     	}
         // Rearrange the array by swapping minimum element with the first element
     		temp = arr[index_min];
