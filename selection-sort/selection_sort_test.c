@@ -1,10 +1,16 @@
-/*
- * selection_sort_test.c
+/* ================================================================================================================
+ * Name: selection_sort_test.c
+ * Description: A simple test function for Quick sort
+ * Input(s):
+ *   arr[] : integer array
+ * Output(s):
+ *   Display sorted array
+ *   Check if test is passed or failed
+ * License: MIT
+ * Reference: http://embeddedgeeks.com/programming/selection-sort-program-c
  *
- *  Created on: Jan 18, 2017
- *      Author: santanusarma
+ * ================================================================================================================
  */
-
 
 #include<stdio.h>
 #include"selection_sort.h"
@@ -20,13 +26,8 @@ void selection_sort_test(void) {
 	  printf("Given array: \n");
 	  print_array(&arr[0],array_size);
 
-	//Array arr[] has the items to sort; temporary array temp[] is a work array.
-	  int temp[array_size];
-	  for(int i = 0; i < array_size; i++)
-	  	        temp[i] = arr[i];
-
 	/*function call for selection sort test*/
-	  selection_sort(arr, 0, array_size-1);
+	  selection_sort(arr, array_size);
 
 	  // Verifying and validating result
 	  // Expected sorted array (2, 3, 4, 5, 6, 9)

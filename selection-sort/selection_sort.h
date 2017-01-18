@@ -1,21 +1,22 @@
-/*
- * selection_sort.h
+/* ================================================================================================================
+ * Name: selection_sort.h
+ * Description: Header file for Quick Sort implementation in C
+ * License: MIT
+ * Reference: http://embeddedgeeks.com/programming/selection-sort-program-c
  *
- *  Created on: Jan 18, 2017
- *      Author: santanusarma
+ * ================================================================================================================
  */
 
 #ifndef SELECTION_SORT_H_
 #define SELECTION_SORT_H_
 
-#define rand_arr_size 100
+#define rand_arr_size 10
 
-void selection_sort(int arr[], int left, int right);
+void selection_sort(int arr[], int n);
 void selection_sort_test(void);
-int selectionsort_test_rand(void);
+void selectionsort_test_rand(void);
 void print_array(int *arr, int n);
 int compare_array(int *arr1, int *arr2, int n);
-void swap(int arr[], int left, int right);
 
 
 #endif /* SELECTION_SORT_H_ */

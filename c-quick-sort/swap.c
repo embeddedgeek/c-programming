@@ -7,7 +7,7 @@
 */
 #include"quick_sort.h"
 
-// A simple function to swap two number using pointer
+// A simple function to swap two numbers
 void swap(int arr[], int left, int right){
 
     int temp;

@@ -26,11 +26,6 @@ void quick_sort_test(void) {
 	  printf("Given array: \n");
 	  print_array(&arr[0],array_size);
 
-	//Array arr[] has the items to sort; temporary array temp[] is a work array.
-	  int temp[array_size];
-	  for(int i = 0; i < array_size; i++)
-	  	        temp[i] = arr[i];
-
 	/*function call for merge sort test*/
 	  quick_sort(arr, 0, array_size-1);
 
