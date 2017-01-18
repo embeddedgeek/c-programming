@@ -1,10 +1,17 @@
-/*
- * selection_sort.c
+/* ================================================================================================================
+ * Name: selection_sort
+ * Description: A simple function to implement Selection sort in C
+ * Input(s):
+ *   arr[] : integer array
+ *   left : integer number
+ *   right : integer number
+ * Output(s):
+ *   Returns none
+ * License: MIT
+ * Reference: http://embeddedgeeks.com/programming/selection-sort-program-c
  *
- *  Created on: Jan 18, 2017
- *      Author: santanusarma
+ * ================================================================================================================
  */
-
 
 #include"selection_sort.h"
 
