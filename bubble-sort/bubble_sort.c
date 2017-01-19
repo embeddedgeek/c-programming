@@ -3,6 +3,7 @@
  * Description: A simple function to implement Bubble sort in C
  * Input(s):
  *   arr[] : integer array (unsorted)
+ *    n  : integer number (array size)
  * Output(s):
  *   Returns none
  * License: MIT
